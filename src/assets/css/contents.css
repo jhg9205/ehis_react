@@ -1,0 +1,472 @@
+@charset "utf-8";
+/*>>>>>>>>>> 공통 <<<<<<<<<<*/
+/* 타이틀 */
+.subTit {
+	margin: 30px 0 11px;
+}
+.subTit .right {
+	display: flex;
+	justify-content: right;
+}
+.subTit p {
+	display: inline-block;
+	position: relative;
+	padding-top: 2px;
+	line-height: 33px;
+	letter-spacing: -0.06em;
+	font-size: 15px;
+	font-weight: 700;
+	color: #000;
+}
+.subTit p:before {
+	display: block;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 9px;
+	height: 2px;
+	background: #000;
+}
+.subTit .info {
+	display: flex;
+	justify-content: right;
+}
+.subTit .info ul li {
+	letter-spacing: -0.025em;
+	line-height: 20px;
+	font-size: 13px;
+	color: #000;
+}
+
+/* 버튼 */
+.btn {
+	display: inline-block;
+	padding: 0 8px;
+	border: 1px solid #666;
+	border-radius: 5px;
+	min-width: 84px;
+	vertical-align: top;
+	text-align: center;
+	letter-spacing: -0.05em;
+	line-height: 28px;
+	font-size: 15px;
+	font-weight: 700;
+	color: #fff;
+	background: #666;
+	cursor: pointer;
+}
+.btnSquare {
+	padding: 0;
+	border-radius: 0;
+	width: 126px;
+	font-weight: 500;
+}
+/* 버튼 색상 */
+.btnGray {
+	border-color: #999;
+	background: #999;
+}
+.btnGray02 {
+	border-color: #ddd;
+	color: #666;
+	background: #ddd;
+}
+.btnGray03 {
+	border-color: #666;
+	color: #fff;
+	background: #666;
+}
+.btnGray04 {
+	border-color: #666;
+	color: #000;
+	background: #eee;
+}
+.btnBlue {
+	border-color: #5094e9;
+	background: #5094e9;
+}
+.btnNavy {
+	border-color: #002a52;
+	background: #002a52;
+}
+.btnLink {
+	line-height: 25px;
+	font-size: 15px;
+	color: #5094e9;
+}
+.btnLine {
+	border-color: #666;
+	background: #fff;
+	color: #666;
+}
+.btnLineBlue {
+	border-color: #5094e9;
+	background: #fff;
+	color: #5094e9;
+}
+
+/* 버튼 정렬 */
+.btnArea {
+	margin-top: 50px;
+	text-align: center;
+}
+.btnArea .btn {
+	margin: 0 4px;
+}
+.btn + .btn {
+	margin-left: 10px;
+}
+
+/*>>>>>>>>>> 페이지 <<<<<<<<<<*/
+/*** 로그인 ***/
+.mainWrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px 0 100px;
+	height: 100vh;
+	background: url('../images/common/bg-main.png') no-repeat center/cover;
+}
+.mainWrap .inner {
+	text-align: center;
+}
+.mainWrap .inner h1 {
+	margin-bottom: 25px;
+}
+.mainWrap .inner h1 img {
+	display: block;
+	margin: 0 auto;
+}
+.mainWrap .inner p {
+	margin-bottom: 75px;
+	line-height: 35px;
+	font-size: 20px;
+	color: #000;
+}
+.mainWrap .inner .innerBox {
+	display: flex;
+	overflow: hidden;
+	border-radius: 30px;
+	width: 920px;
+	background: #fff;
+}
+.mainWrap .inner .innerBox > * {
+	flex: 1;
+	min-height: 406px;
+}
+.mainWrap .inner .innerBox .left {
+	padding: 30px;
+	text-align: left;
+	background: #214b7e url('../images/common/bg-main02.png') no-repeat right bottom;
+}
+.mainWrap .inner .innerBox .left .btn {
+	margin-top: 15px;
+	padding: 0 40px;
+	border-radius: 21px;
+	border-color: #fff;
+	line-height: 42px;
+	font-size: 15px;
+	font-weight: 700;
+	color: #214b7e;
+	background: #fff;
+}
+.mainWrap .inner .innerBox .left .btn span {
+	display: inline-block;
+	padding-right: 27px;
+	background: url('../images/common/bg-arrow.png') no-repeat right center;
+}
+.mainWrap .inner .innerBox .right {
+	padding: 20px 40px;
+}
+.mainWrap .inner .innerBox .right .tabArea > ul {
+	display: flex;
+	margin-bottom: 30px;
+}
+.mainWrap .inner .innerBox .right .tabArea > ul li {
+	flex: 1;
+	display: block;
+	line-height: 38px;
+	font-size: 18px;
+	color: #ccc;
+	cursor: pointer;
+}
+
+.mainWrap .inner .innerBox .right .tabArea > ul li.curr {
+	color: #002a52;
+	font-weight: 700;
+}
+.mainWrap .inner .innerBox .right .tabArea .tabBox p {
+	margin-bottom: 36px;
+	line-height: 24px;
+	font-size: 15px;
+	color: #666;
+}
+.mainWrap .inner .innerBox .right .tabArea .tabBox ul {
+	margin-bottom: 20px;
+}
+.mainWrap .inner .innerBox .right .tabArea .tabBox ul li + li {
+	margin-top: 10px;
+}
+.mainWrap .inner .innerBox .right .tabArea .tabBox ul li input {
+	padding: 0 50px;
+	border-radius: 30px;
+	border: 1px solid #ccc;
+	height: 60px;
+	text-align: center;
+	font-size: 15px;
+	color: #ccc;
+}
+.mainWrap .inner .innerBox .right .tabArea .tabBox ul li input:focus,
+.mainWrap .inner .innerBox .right .tabArea .tabBox ul li input:valid {
+	border-color: #002a52;
+	color: #002a52;
+}
+.mainWrap .inner .innerBox .right .tabArea .tabBox ul li input[type='text'] {
+	background: url('../images/common/ico-login01.png') no-repeat left 23px center;
+}
+.mainWrap .inner .innerBox .right .tabArea .tabBox ul li input[type='text']:focus,
+.mainWrap .inner .innerBox .right .tabArea .tabBox ul li input[type='text']:valid {
+	background-image: url('../images/common/ico-login01-on.png');
+}
+.mainWrap .inner .innerBox .right .tabArea .tabBox ul li input[type='password'] {
+	background: url('../images/common/ico-login02.png') no-repeat left 23px center;
+}
+.mainWrap .inner .innerBox .right .tabArea .tabBox ul li input[type='password']:focus,
+.mainWrap .inner .innerBox .right .tabArea .tabBox ul li input[type='password']:valid {
+	background-image: url('../images/common/ico-login02-on.png');
+}
+.mainWrap .inner .innerBox .right .tabArea .tabBox .btn {
+	border-radius: 30px;
+	width: 100%;
+	line-height: 58px;
+	font-size: 15px;
+	font-weight: 700;
+}
+.mainWrap .inner .innerBox .right .tabArea .tabBox .btn + .btn {
+	margin-top: 30px;
+}
+
+/* 탭 */
+.tab ul {
+	overflow: hidden;
+	border-radius: 20px 0 0 0;
+}
+.tab ul:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+.tab ul li {
+	float: left;
+	width: 223px;
+	text-align: center;
+}
+.tab ul li + li {
+	margin-left: -12px;
+}
+.tab ul li a {
+	display: block;
+	position: relative;
+	padding: 12px 0;
+	border-radius: 0 0 0 15px;
+	height: 61px;
+	line-height: 35px;
+	font-size: 17px;
+	font-weight: 400;
+	color: #666;
+	background: #ececec;
+}
+.tab ul li:first-child.curr a {
+	border-radius: 20px 0 0 0;
+	color: #000;
+	font-weight: 700;
+	background: #fff;
+}
+.tab ul li.curr a {
+	position: relative;
+	z-index: 1;
+	border-radius: 20px 0 0 0;
+	color: #000;
+	font-weight: 700;
+	background: #fff;
+}
+.tab ul li.curr a::before {
+	content: '';
+	position: absolute;
+	right: -8px;
+	bottom: 0;
+	width: 8px;
+	height: 8px;
+	background: url(/src/assets/images/common/bg-tab-right.png) no-repeat;
+}
+.tab ul li:last-child.curr a::before {
+	display: none;
+}
+.tabWrap > ul {
+	position: relative;
+	left: -30px;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+	width: calc(100% + 60px);
+}
+.tabWrap > ul li {
+	float: left;
+	text-align: center;
+}
+.tabWrap > ul li a {
+	display: block;
+	padding: 0 20px;
+	line-height: 35px;
+	font-size: 15px;
+	color: #666;
+}
+.tabWrap > ul li.curr a {
+	position: relative;
+	color: #4f94e8;
+}
+.tabWrap > ul li.curr a:after {
+	display: block;
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #4f94e8;
+}
+
+
+/* ROW 테이블 */
+.rowTable table {table-layout:fixed; margin-left:-1px; min-width:calc(100% + 1px); border-top:2px solid #000}
+.rowTable table thead th {text-align:center}
+.rowTable table th,
+.rowTable table td {overflow:hidden; text-overflow:ellipsis; white-space:nowrap; padding:10px 19px; vertical-align:middle; border-bottom:1px solid #ddd; border-left:1px solid #ddd; height:51px; color:#000}
+.rowTable table th:first-child,.rowTable table td:first-child {border-left:none}
+.rowTable table th {text-align:left; font-weight:700; background:#f9f9f9}
+/* .rowTable table td img {border:1px solid #ccc; width:46px; height:40px}  */
+.rowTable table td a {text-decoration:underline; color:#000}
+.rowTable table td > * + * {margin-left:6px}
+.rowTable table td span.naver {display:inline-block; padding:4px 0 0 40px; height:30px; background:url(@images/common/ico-naver.png)no-repeat left;}
+.rowTable table td span.kakao {display:inline-block; padding:4px 0 0 40px; height:30px; background:url(@images/common/ico-kakao.png)no-repeat left;}
+.rowTable + .pageTitSub {margin-top:5rem}
+.rowTable table td .block {display:flex; align-items:center; justify-content:right; margin-top:10px}
+.rowTable.v2 table td > span {display:inline-block; vertical-align:middle; line-height:20px}
+.rowTable.v2 table td label {display:inline-block; padding-top:0; vertical-align:top; line-height:20px}
+
+.contInner {
+	display: flex;
+	justify-content: space-between;
+}
+.contInner > * {
+	width: 49%;
+}
+
+.left {
+	float: left;
+}
+.w150 {
+	width: 150px !important;
+}
+.w100 {
+	width: 100px !important;
+}
+
+select {
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin: 0;
+	padding: 0 0 0 12px;
+	border: none;
+	border-bottom: 1px solid #e7e7e7;
+	width: 100%;
+	max-width: 100%;
+	height: 30px;
+	font-size: 15px;
+	font-weight: 700;
+	color: #000;
+	background: #fff url(@images/common/bl-arrow.png) no-repeat center right;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.rowTable table th, .rowTable table td {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 10px 19px;
+	vertical-align: middle;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	height: 51px;
+	color: #000;
+}
+
+.txtR {
+	text-align: right !important;
+}
+.btnList {
+	margin-bottom: 30px;
+}
+.btnList ul {
+	display: flex;
+}
+.btnList ul li + li {
+	margin-left: 20px;
+}
+.btnList ul li {
+	flex: 1;
+}
+
+.btnList ul li:nth-child(2n) a {
+	background-color: #214b7e;
+}
+.btnList ul li a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+	border-radius: 10px;
+	height: 130px;
+	font-size: 17px;
+	font-weight: 700;
+	color: #fff;
+	background: #7fb249 url(@images/common/ico-download.png) no-repeat center 30px;
+	transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+}
+.errorPage {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px 0 100px;
+	height: 100vh;
+	background: url('../images/common/bg-main.png') no-repeat center/cover;
+}
+.errorPage h1{
+	display: block;
+	vertical-align: top;
+}
+.errorWrap {
+	width: 1000px;
+	height: 200px;
+	padding-bottom: 10%;
+	padding-top: 5%;
+	text-align: center;
+	font-size: 3rem;
+	background-color: #cbd0ef;
+	border: 1px solid #8289ef;
+	border-radius: 50px;
+}
+.errorWrap p {
+	color: #db5454;
+	padding: 20px 0 10px 0;
+}
+.errorWrap > .btnWrap .btn {
+	padding: 10px;
+	font-size: 20px;
+}

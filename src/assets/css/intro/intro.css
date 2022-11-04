@@ -1,0 +1,308 @@
+.contentArea1 {
+    width: 1000px;
+    margin: 0 auto;
+}
+#mainCircle {
+    border: 10px solid #5094e9;
+    border-radius: 50%;
+    width: 19rem;
+    height: 19rem;
+    background-color: white;
+    color: #5094e9;
+    margin: 0 auto;
+    margin-bottom: 40px;
+;
+}
+#mainCircle h5 {
+    margin-top: 45%;
+    font-size: 18px;
+}
+.subContArea {
+    display: inline-block;
+    margin: 3px;
+}
+.subCircle {
+    border : 10px solid #7fb249;
+    border-radius: 50%;
+    width: 11rem;
+    height: 11rem;
+    background-color: white;
+    color: #7fb249;
+    margin: 0 auto;
+}
+
+.subCircle h5 {
+    margin-top: 40%;
+    font-size: 18px;
+}
+.mainDiv {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    height: 200px;
+}
+.subDiv {
+    display: inline-grid;
+}
+.subDiv h6 {
+    color: #7fb249;
+    font-size: 16px;
+    margin: 20px;
+}
+.subDiv p {
+    margin: 10px;
+    color: #6f6f6f;
+    font-size: 15px;
+}
+
+.subContent {
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+.subContent p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+
+
+.researchCont {
+    width: 70rem;
+    margin-bottom: 50px;
+}
+.researchCont p {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 10px;
+}
+.researchCont ul {
+    margin-left: 30px;
+    display: grid;
+}
+.researchCont li {
+    margin: 0;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+.researchCont li span {
+    font-size: 11px;
+}
+
+
+.researchTit {
+    width: 500px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.researchTit p {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.bigCont .halfCont {
+    border: 2px dashed #a5a5a5;
+    width: 313px;
+    height: 90px;
+    border-radius: 20px;
+}
+
+.bigCont .halfDiv01 {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #ffffff 50%, #3fb08e 50%);
+}
+.bigCont .halfDiv02 {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #ffffff 50%, #ffb080 50%);
+}
+.bigCont .halfDiv03 {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #ffffff 50%, #ffe774 50%);
+}
+.bigCont .halfDiv04 {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #ffffff 50%, #9ba8ff 50%);
+}
+
+.bigCont .halfDiv05 {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #ffffff 50%, #49d139 50%);
+}
+
+.bigCont .halfDiv06 {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #ffffff 50%, #a0d2ff 50%);
+}
+
+.bigCont .halfTxt {
+    width: 290px;
+    height: 70px;
+    margin: 0 auto;
+    position: relative;
+    top: 8px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #5f5e5e;
+    display: flex;
+    align-items: center;
+}
+
+.bigCont .halfTxt p {
+    font-size: 2.3rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+.bigCont .planTit {
+    font-size: 3.5rem;
+    color: #ababab;
+    font-weight: 700;
+    font-style: italic;
+    margin: 0 20px 0 30px;
+}
+.bigCont .triangle{
+    font-size: 15px;
+    color: #979797;
+    margin-left: 10px;
+}
+
+.bigCont .planDiv {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.bigCont .planP {
+    font-size: 2.3rem;
+    margin-left: 15px;
+}
+.bigCont .planSpan {
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+
+
+/* 절차도 작은 이미지 */
+
+.smallCont .halfCont {
+    border: 1px dashed #a5a5a5;
+    width: 205px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.smallCont .halfDiv01 {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #ffffff 50%, #3fb08e 50%);
+}
+.smallCont .halfDiv02 {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #ffffff 50%, #ffb080 50%);
+}
+.smallCont .halfDiv03 {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #ffffff 50%, #ffe774 50%);
+}
+.smallCont .halfDiv04 {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #ffffff 50%, #9ba8ff 50%);
+}
+
+.smallCont .halfDiv05 {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #ffffff 50%, #49d139 50%);
+}
+
+.smallCont .halfDiv06 {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #ffffff 50%, #a0d2ff 50%);
+}
+
+.smallCont .halfTxt {
+    width: 190px;
+    height: 45px;
+    margin: 0 auto;
+    position: relative;
+    top: 6px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #5f5e5e;
+    display: flex;
+    align-items: center;
+}
+
+.smallCont .halfTxt p {
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+    line-height: 20px;
+}
+
+.smallCont .planTit {
+    font-size: 2.5rem;
+    color: #ababab;
+    font-weight: 700;
+    font-style: italic;
+    margin: 0 10px 0 10px;
+}
+.smallCont .triangle{
+    font-size: 11px;
+    color: #979797;
+    margin-left: 10px;
+}
+
+.smallCont .planDiv {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 8px;
+}
+
+.smallCont .planP {
+    font-size: 1.5rem;
+    margin-left: 8px;
+    line-height: 16px;
+}
+.smallCont .planSpan {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.smallCont {
+    display: -webkit-box;
+    display: -moz-box;
+    width: 100%;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    padding: 0 !important;
+}

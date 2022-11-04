@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/NotoSansKR-Light.woff') format('woff'), url('../fonts/NotoSansKR-Light.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/NotoSansKR-Regular.woff2') format('woff2'), url('../fonts/NotoSansKR-Regular.woff') format('woff'),
+		url('../fonts/NotoSansKR-Regular.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/NotoSansKR-Medium.woff2') format('woff2'), url('../fonts/NotoSansKR-Medium.woff') format('woff'),
+		url('../fonts/NotoSansKR-Medium.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/NotoSansKR-Bold.woff2') format('woff2'), url('../fonts/NotoSansKR-Bold.woff') format('woff'),
+		url('../fonts/NotoSansKR-Bold.otf') format('opentype');
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body,
+html {
+	overflow: hidden;
+	overflow-y: auto;
+	font-family: 'Noto Sans KR', Dotum, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	letter-spacing: -0.05em;
+	background: #f1f1f1;
+}
+table {
+	border: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+legend,
+hr,
+caption {
+	display: none;
+}
+
+/* 
+input {
+	box-sizing: border-box;
+}
+textarea {
+	resize: none;
+}
+
+::-webkit-input-placeholder {
+	color: #666;
+}
+::-moz-placeholder {
+	color: #666;
+}
+:-ms-input-placeholder {
+	color: #666;
+}
+:-moz-placeholder {
+	color: #666;
+}
+
+input:read-only {
+	background: #ececec;
+}
+input:-moz-read-only {
+	background: #ececec;
+}
+
+.hide {
+	display: none !important;
+} */
+/* Mui 기본 폰트 변경 */
+.css-ahj2mt-MuiTypography-root {
+	font-family: 'Noto Sans KR', Dotum, Arial, sans-serif !important;
+}
+
+path {
+	fill: rgba(44, 86, 255, 0.13);
+	stroke: #ff2c2c;
+}
